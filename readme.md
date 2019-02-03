@@ -8,12 +8,12 @@ Pingtop - takes a list of hosts as arguments and monitors their ping
 
 ## Running pingtop
 ```bash
-$ git clone [url]
+$ git clone https://github.com/smokie/pingtop.git
 $ cd pingtop
 ```
 
 ```bash
-$ python3 pingtop.py
+$ python3 pingtop.py google.com 192.168.0.1
 ```
 
 License
