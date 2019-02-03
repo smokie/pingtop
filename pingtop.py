@@ -45,7 +45,7 @@ def main(stdscr):
     running = False
 
 def print_usage(stdscr):
-    stdscr.addstr(0, 0, "pingtop - by taher <smokiee{at}gmail.com>", color_pair(2))
+    stdscr.addstr(0, 0, "pingtop - by taher <smokiee*at*gmail.com>", color_pair(2))
     stdscr.addstr(1, 0, "Usage: " + sys.argv[0] + " host1, [host2], ...", color_pair(2))
     stdscr.addstr(2, 0, "Press any key to quit", color_pair(1))
 
@@ -54,7 +54,7 @@ def render(stdscr):
     global hosts
     line = 4
 
-    stdscr.addstr(0, 0, "pingtop by taher <smokiee@gmail.com>", color_pair(3))
+    stdscr.addstr(0, 0, "pingtop by taher <smokiee*at*gmail.com>", color_pair(3))
     stdscr.addstr(1, 0, "Press 'q' to quit", color_pair(3))
     stdscr.addstr(2, 0, "", color_pair(3))
     stdscr.addstr(3, 0, "Host", color_pair(3))
